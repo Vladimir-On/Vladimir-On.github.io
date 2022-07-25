@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Второй сайт сделанный на Bootstrap</title>
+    <link rel="stylesheet" href="src\css\bootstrap.css">
+    <link rel="stylesheet" href="src\css\style.css">
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+<!-- Первый row(строка) под заголовок-->
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <h1 class="header text-center">
+                        <span>Получите видео инструкцию</span>
+                        <strong class="text-uppercase">Как заработать свой первый миллион</strong>
+                    </h1>
+                </div>
+            </div>
+<!-- Второй row(строка) под видео и форму-->
+            <div class="row">
+                <div class="col-lg-6 offset-lg-1 col-md-8 offset-md-2">
+                    <div class="video">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ayVLjyWqMCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+                    <div class="form">
+                        <p class="form-header text-center">Введите свой email</p>
+                        <form action="#">
+                            <input type="text" class="form-control" placeholder="Ваше имя">
+                            <input type="text" class="form-control" placeholder="Ваше email">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary btn-lg form-btn" type="button">Получить инструкцию</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <!-- row под заголовок секции --> 
+        <div class="row">
+            <div class="col-lg12 col-xs-12 col-sm-12">
+                <h1 class="section-header text-uppercase text-center">Почему нужно сделать это сейчас?</h1>
+            </div>
+        </div>
+        <!-- Блок с преимуществами-->
+        <div class="feature text-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <img src="img\01.png" alt="">
+                        <p>Первое приемущество</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <img src="img\02.png" alt="">
+                        <p>Второе приемущество</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <img src="img\03.png" alt="">
+                        <p>Третье приемущество</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <img src="img\04.png" alt="">
+                        <p>Четвёртоеприемущество</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Получить инструкцию -->
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary btn-lg form-btn" type="button">Получить инструкцию</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
