@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v13/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf) format('truetype');
+}
+body {
+  font-family: 'Manrope', sans-serif;
+}
+html {
+  font-size: 10px;
+}
+.button {
+  margin-top: 10rem;
+}
+.knop{
+  margin-top: -4rem;
+}
+.button button {
+  background-color: #fcb303;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.wrap {
+  display: table;
+  color: #1a1820;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 2rem;
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo {
+  text-align: center;
+}
+.text-room {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.text-fiches {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
+section {
+  padding: 10rem 0;
+}
+.opis {
+  text-align: center;
+  margin-top: 5rem;
+}
+.opis p {
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 2rem;
+  color: #000000;
+}
+.main {
+  padding: 3rem 0;
+}
+.main-title {
+  margin-top: 10rem;
+  text-align: center;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.main-title h1 {
+  font-size: 4rem;
+  color: #fcb303;
+}
+.main-content {
+  position: relative;
+  z-index: 1;
+}
+.fot-fon {
+  margin-top: -42rem;
+  position: relative;
+  z-index: -1;
+}
+.header {
+  height: 15rem;
+  margin-bottom: 10rem;
+}
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 2.5rem;
+  height: 10rem;
+  line-height: 10rem;
+  white-space: nowrap;
+  padding-left: 25%;
+}
+@media (max-width: 767px) {
+  .text-room{
+    margin-top: 10rem;
+  }
+  .main-title {
+    margin-top: 20rem;
+  }
+  .phone-link {
+    text-align: center;
+    margin-top: -5rem;
+    margin-left: -1.5rem;
+  }
+  .fot-fon {
+    margin-top: -41rem;
+  }
+}
+#rot {
+  -webkit-animation-iteration-count: inherit ;
+          animation-iteration-count: inherit ;
+}
+#phone {
+  -webkit-animation-iteration-count: inherit ;
+          animation-iteration-count: inherit ;
+          
+}
+/* //Rooms */
+.prez-one{
+  margin-top: 5rem;
+  text-align: center;
+  color:#fcb303;
+}
+.prez-two{
+  margin-top: 5rem;
+  text-align: center;
+  color:#fcb303;
+}
+.prez-three{
+  margin-top: 5rem;
+  text-align: center;
+  color:#fcb303;
+}
+.rel{
+  text-align: center;
+  font-size: 2rem;
+}
+.btn-room{
+  margin-top: -0.2rem;
+}
+.text-galery{
+  margin: 7rem;
+  text-align: center;
+  color: #fcb303;
+}
+.txt-g{
+  font-size: 5rem;
+  font-weight: 900;
+}
+.fl-txt{
+  text-align: center;
+  font-size: 2rem;
+  color: #1a1820;
+}
+.br-title{
+  text-align: center;
+  margin: 5rem;
+  color:#fcb303;
+  font-size: 4rem;
+  font-weight: 900;
+}
+.btn-bron{
+  margin: 0rem;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 10rem;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+
+}
+.put-br{
+  text-align: center;
+  border-radius: 8px;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+}
+.ch-bron{
+  text-align: center;
+}
+@media (max-width: 767px){
+  .btn-bron{
+    margin-top: 0.5rem ;
+    width: 80%;
+  }
+  .put-br{
+    margin: 0.5rem ;
+    width: 80%;
+  }
+}
+
+.poisk{
+  text-align: center;
+
+  margin-top: 5rem;
+  color: #fcb303;
+}
+.ashka{
+  font-size: 4rem;
+  font-weight: 900;
+}
+.maps{
+  margin-top: 5rem;
+  width: 100%;
+}
+.down{
+  text-align: center;
+  color: #1a1820;
+  font-size: 2rem;
+  margin-top: 3rem;
+  display: table;
+  color: #1a1820;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 2rem;
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+.text-down{
+
+  color: #1a1820;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 2.5rem;
+  white-space: nowrap;
+}
+.bron{
+  margin-bottom: 20rem;
+  margin-top: 20rem;
+}
+@media (max-width: 767px){
+  .map-down{
+    margin-top: 5rem;
+  }
+  #phone{
+    margin-left: 1%;
+  }
+}
